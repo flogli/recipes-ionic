@@ -1,6 +1,6 @@
 # recipes-ionic
 Recipes list build with Ionic + Angular
 
-![Alt text](src\assets\RecipesList.png?raw=true "Recipes List")
+![alt text](https://github.com/flogli/recipes-ionic/blob/master/src/assets/images/RecipesList.png)
 
-![Alt text](src\assets\RecipeDetail.png?raw=true "Recipe Detail")
+![alt text](https://github.com/flogli/recipes-ionic/blob/master/src/assets/images/RecipeDetail.png)
