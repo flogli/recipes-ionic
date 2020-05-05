@@ -7,13 +7,17 @@ import { Recipe } from './recipe.model';
   templateUrl: './recipes.page.html',
   styleUrls: ['./recipes.page.scss'],
 })
-export class RecipesPage implements OnInit {
+export class RecipesPage implements OnInit{
 
   recipes: Recipe[];
 
   constructor(private recipesService: RecipesService) { }
 
   ngOnInit() {
+    
+  }
+
+  ionViewWillEnter(){
     this.recipes = this.recipesService.getAllRecipes();
   }
 
